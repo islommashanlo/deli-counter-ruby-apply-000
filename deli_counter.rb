@@ -23,7 +23,8 @@ end
 def take_a_number(clients)
     counter = 0
     counter += 1
-    clients.push(counter) 
+    clients.push(counter)
+    puts "You are number #{counter} in line."
 #now_serving
 def now_serving(clients)
   if clients.size == 0
