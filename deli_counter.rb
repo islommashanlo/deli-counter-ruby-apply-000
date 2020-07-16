@@ -21,7 +21,8 @@ end
 #     return  name, number
 # end
 def take_a_number(clients)
-
+    counter = 0
+    
 
 #now_serving
 def now_serving(clients)
