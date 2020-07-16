@@ -27,10 +27,3 @@ def now_serving(clients)
   else
     puts "Currently serving #{clients.shift}."
 =======
-katz_deli = []
-def line(client)
-  if client == 0
-    puts "The line is currently empty"
->>>>>>> d3ab67d24047db7a745bdba6a9baae7f507f1e5c
-  end
-end
