@@ -1,5 +1,6 @@
 # Write your code here.
 #line
+<<<<<<< HEAD
 def line(clients)
   if clients.size == 0
     puts "The line is currently empty."
@@ -25,5 +26,11 @@ def now_serving(clients)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{clients.shift}."
+=======
+katz_deli = []
+def line(client)
+  if client == 0
+    puts "The line is currently empty"
+>>>>>>> d3ab67d24047db7a745bdba6a9baae7f507f1e5c
   end
 end
