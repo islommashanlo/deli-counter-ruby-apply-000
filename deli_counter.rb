@@ -20,6 +20,9 @@ end
 #     puts "Welcome, #{name}. You are number #{number+1} in line."
 #     return  name, number
 # end
+def take_a_number(clients)
+
+
 #now_serving
 def now_serving(clients)
   if clients.size == 0
